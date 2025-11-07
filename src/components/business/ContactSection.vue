@@ -154,7 +154,7 @@
                 <div>
                   <h4 class="text-lg font-semibold text-white mb-2">Address</h4>
                   <p class="text-white/80">
-                    Singapore Financial District<br>
+                    2 Central Boulevard, #25-08, IOI Central Boulevard Towers<br>
                     Republic of Singapore
                   </p>
                 </div>
@@ -168,7 +168,7 @@
                 </div>
                 <div>
                   <h4 class="text-lg font-semibold text-white mb-2">Phone</h4>
-                  <p class="text-white/80">+65 1234 5678</p>
+                  <p class="text-white/80">+65 6530 0101</p>
                 </div>
               </div>
 

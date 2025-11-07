@@ -1,0 +1,15 @@
+# Cloudflare Pages ignore file
+node_modules/
+.git/
+.env
+.env.*
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+coverage/
+.nyc_output/

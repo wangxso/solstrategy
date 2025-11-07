@@ -1,6 +1,10 @@
 <script setup lang="ts">
+import { ref } from 'vue';
 import AppHeader from './components/layout/AppHeader.vue';
 import AppFooter from './components/layout/AppFooter.vue';
+import CookieConsent from './components/common/CookieConsent.vue';
+
+const cookieConsentRef = ref<InstanceType<typeof CookieConsent> | null>(null);
 </script>
 
 <template>
@@ -14,7 +18,10 @@ import AppFooter from './components/layout/AppFooter.vue';
     </main>
 
     <!-- Footer -->
-    <AppFooter />
+    <AppFooter :on-cookie-settings="() => cookieConsentRef?.openSettings()" />
+    
+    <!-- Cookie Consent Banner -->
+    <CookieConsent ref="cookieConsentRef" />
   </div>
 </template>
 
